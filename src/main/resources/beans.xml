@@ -32,27 +32,6 @@
                 <property name="zipCode" value="6565645"/>
         </bean>
 
-<!--
-
-        <bean id="record1" class="com.qa.spring.beans.EmployeeRecord">
-                <constructor-arg>
-                        <ref bean="emp1"/>
-                </constructor-arg>
-                <constructor-arg>
-                        <ref bean="home-address"/>
-                </constructor-arg>
-        </bean>
-
-        <bean id="emp3" class="com.qa.spring.beans.Employee">
-                <constructor-arg>
-                        <list>
-                                <ref bean="home-address"/>
-                                <ref bean="office-address"/>
-                        </list>
-                </constructor-arg>
-        </bean>
--->
-
         <bean id="record" class="com.qa.spring.beans.EmployeeRecord">
                 <constructor-arg>
                         <ref bean="emp1"/>
