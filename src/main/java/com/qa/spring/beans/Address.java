@@ -1,43 +1,41 @@
 package com.qa.spring.beans;
 
 public class Address {
-	
-	private String houseNo;
-	private String street;
-	private int zipCode;
-	
-	public Address() {
-	}
 
-	public String getHouseNo() {
-		return houseNo;
-	}
+    private String houseNo;
+    private String street;
+    private int zipCode;
 
-	public void setHouseNo(String houseNo) {
-		this.houseNo = houseNo;
-	}
+    public Address() {
+        System.out.println("Address constructor invoked..");
+    }
 
-	public String getStreet() {
-		return street;
-	}
+    public String getHouseNo() {
+        return houseNo;
+    }
 
-	public void setStreet(String street) {
-		this.street = street;
-	}
+    public void setHouseNo(String houseNo) {
+        this.houseNo = houseNo;
+    }
 
-	public int getZipCode() {
-		return zipCode;
-	}
+    public String getStreet() {
+        return street;
+    }
 
-	public void setZipCode(int zipCode) {
-		this.zipCode = zipCode;
-	}
+    public void setStreet(String street) {
+        this.street = street;
+    }
 
-	@Override
-	public String toString() {
-		return "Address [houseNo=" + houseNo + ", street=" + street + ", zipCode=" + zipCode + "]";
-	}
-	
-	
+    public int getZipCode() {
+        return zipCode;
+    }
 
+    public void setZipCode(int zipCode) {
+        this.zipCode = zipCode;
+    }
+
+    @Override
+    public String toString() {
+        return "Address [houseNo=" + houseNo + ", street=" + street + ", zipCode=" + zipCode + "]";
+    }
 }
